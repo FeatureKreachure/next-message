@@ -6,7 +6,6 @@ import React from 'react'
 const ChatBlock = () => {
   return (
     <div className='flex gap-3 bg-slate-500 rounded-lg px-5 py-5 justify-between min-w-[80%]'>
-      <LeftBar />
       <ChatBox />
       <RightBar />
     </div>
